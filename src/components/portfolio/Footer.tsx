@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 items-start gap-gutter md:grid-cols-12">
           <div className="flex flex-col gap-3 md:col-span-4">
             <span className="font-mono text-[10px] uppercase tracking-widest text-on-surface">
-              Lena Moretti
+              Leonardo Moretti
             </span>
 
             <p className="font-body text-sm text-secondary">
@@ -23,7 +23,7 @@ export default function Footer() {
             </span>
 
             <p className="font-body text-sm text-on-surface">
-              Estudio y consultas: studio@lenamoretti.com
+              Estudio y consultas: hello@leonardomoretti.com
             </p>
 
             <p className="font-mono text-[10px] uppercase text-on-surface-variant">
@@ -57,11 +57,11 @@ export default function Footer() {
 
             <div className="flex flex-col gap-1 md:items-end">
               <span className="font-mono text-[10px] uppercase tracking-wider text-on-surface-variant">
-                © 2026 Lena Moretti. Todos los derechos reservados.
+                © 2026 Leonardo Moretti. Todos los derechos reservados.
               </span>
 
               <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                Frequency Studio Typography Edition
+                Frequency Studio
               </span>
             </div>
           </div>

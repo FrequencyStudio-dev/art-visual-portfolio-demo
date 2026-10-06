@@ -1,42 +1,22 @@
+import Image from "next/image";
+
 export default function About() {
   return (
-    <section id="about" className="w-full bg-surface px-margin-mobile py-24 md:px-margin-tablet lg:px-margin lg:py-40">
+    <section
+      id="about"
+      className="w-full bg-surface px-margin-mobile py-24 md:px-margin-tablet lg:px-margin lg:py-40"
+    >
       <div className="grid grid-cols-1 items-start gap-gutter lg:grid-cols-12">
-        {/* Portrait Placeholder */}
+        {/* Portrait */}
         <div className="lg:col-span-5">
-          <div className="relative flex aspect-[3/4] w-full flex-col justify-between bg-surface-container-high p-6">
-            <div className="flex items-center justify-between text-secondary">
-              <span className="bg-surface px-2 py-0.5 font-mono text-[10px] uppercase text-on-surface">
-                RETRATO / ARCHIVO
-              </span>
-
-              <span className="font-mono text-[10px] uppercase">
-                LM-BIO-2026
-              </span>
-            </div>
-
-            <div className="max-w-xs self-center bg-surface/90 px-6 py-8 text-center">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                RETRATO DE FOTÓGRAFA
-              </span>
-
-              <p className="mt-1 font-display text-2xl text-on-surface">
-                PLACEHOLDER DE RETRATO
-              </p>
-
-              <p className="mt-1 font-mono text-[10px] uppercase tracking-widest text-secondary">
-                LENA MORETTI
-              </p>
-
-              <p className="mt-2 font-mono text-[10px] text-outline">
-                ESTUDIO SAN TELMO
-              </p>
-            </div>
-
-            <div className="flex items-center justify-between font-mono text-[10px] uppercase text-on-surface-variant">
-              <span>FORMATO: 3:4</span>
-              <span>ESCANEO POLAROID 600</span>
-            </div>
+          <div className="relative aspect-[3/4] w-full overflow-hidden">
+            <Image
+              src="/hero/portrait.jpg"
+              alt="Leonardo Moretti, fotógrafo y director de arte"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 42vw"
+            />
           </div>
         </div>
 
@@ -52,8 +32,8 @@ export default function About() {
             </h2>
 
             <p className="mb-6 font-display text-2xl leading-relaxed text-on-surface">
-              Lena Moretti es fotógrafa y directora de arte radicada en Buenos
-              Aires, con una práctica que atraviesa la moda, el ámbito
+              Leonardo Moretti es fotógrafo y director de arte radicado en
+              Buenos Aires, con una práctica que atraviesa el ámbito
               editorial y la cultura visual contemporánea.
             </p>
 

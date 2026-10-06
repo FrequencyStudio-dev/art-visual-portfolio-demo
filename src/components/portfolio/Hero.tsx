@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="px-margin-mobile pb-24 pt-36 md:px-margin-tablet md:pb-32 md:pt-40 lg:px-margin lg:pb-40">
@@ -34,12 +36,14 @@ export default function Hero() {
 
         {/* Visual placeholder */}
         <div className="lg:col-span-7">
-          <div className="aspect-[4/5] w-full bg-surface-container-low">
-            <div className="flex h-full items-center justify-center">
-              <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-on-surface-variant">
-                Image placeholder
-              </span>
-            </div>
+          <div className="relative aspect-[5/5] w-full overflow-hidden">
+            <Image
+              src="/hero/hero.jpg"
+              alt="Leonardo Moretti, fotógrafo y artista visual"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </div>

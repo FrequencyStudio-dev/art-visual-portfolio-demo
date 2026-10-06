@@ -31,7 +31,7 @@ export default function Contact() {
             href="mailto:hello@lenamoretti.com"
             className="inline-block break-all font-display text-headline-md text-on-surface underline decoration-1 underline-offset-8 transition-colors hover:text-secondary sm:text-headline-lg"
           >
-            hello@lenamoretti.com
+            hello@leonardomoretti.com
           </a>
         </div>
 
